@@ -1,1 +1,5 @@
 # To install: python -m pip install -r requirements.txt
+xgboost==0.90
+pandas==1.0.3
+cufflinks==0.17.0
+plotly-express==0.4.1

@@ -1,0 +1,19 @@
+Create a conda environment:
+
+to create: conda create -n lacture_1 python=3.7
+to activate: conda activate lacture_1
+to remove: conda env remove -n myenv
+
+
+Install project related packages:
+pip install -r Projects/Wine\ Reviews\ -\ Completed/requirements.txt
+
+
+Add Virtual Environment to Jupyter Lab as a kernel:
+
+Jupyter lab makes sure that the IPython kernel is available, but you have to manually add a kernel with a different version of Python or a virtual environment. First, you need to activate your virtual environment. Next, install ipykernel which provides the IPython kernel for Jupyter:
+
+pip install --user ipykernel
+python -m ipykernel install --user --name=lacture_1
+
+
